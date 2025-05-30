@@ -39,7 +39,7 @@ function showItemsList() {
                          </></button></>
             </div>
             '
-        })
+        }))
         
 }
 
@@ -68,4 +68,8 @@ function checkItem(itemName) {
 
     showItemsList()
 
+}
+
+Function addHideWarningClass() {
+    document.querySelector(".warning").classList.add("hide-warning")
 }
