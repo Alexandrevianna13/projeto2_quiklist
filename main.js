@@ -1,5 +1,14 @@
 const items = []
 
 function addItem() {
-    const itemNamw = document.querySelector("#item").value
+    const itemName = document.querySelector("#item").value
+
+    const intem = {
+        name: itemName,
+        checked: false
+    }
+
+    items.push(item)
+
+    
 }
